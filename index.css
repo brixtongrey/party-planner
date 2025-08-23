@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9fafb;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px 0;
+  color: #2c3e50;
+}
+
+.parties {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 10px;
+  padding: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.party {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.party h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+  color: #1a73e8;
+}
+
+.party p {
+  margin: 0.25rem 0;
+  font-size: 12px;
+}
+
+
